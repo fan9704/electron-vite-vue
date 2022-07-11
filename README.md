@@ -50,31 +50,16 @@ npm create electron-vite
 
 **Put Node.js packages in `dependencies`**
 
-🚨 e.g.
-
-- `electron-store`
-- `sqlite3`
-- `serilaport`
-- `mongodb`
-- ...others Node.js packages
+**e.g.** `electron-store` `sqlite3` `serilaport` `mongodb` ...others
 
 **Put Web packages in `devDependencies`**
 
-🚨 e.g.
-
-- `vue`
-- `vue-router`
-- `vuex`
-- `pinia`
-- `element-plus`
-- `ant-design-vue`
-- `axios`
-- ...others Web packages
-
-**TODO: ESM packages**
-
-- `node-fetch`
-- `execa`
-- ...others ESM packages
+**e.g.** `vue` `vue-router` `vuex` `pinia` `element-plus` `ant-design-vue` `axios` ...others
 
 See more 👉 [dependencies vs devDependencies](https://github.com/electron-vite/vite-plugin-electron-renderer#dependencies-vs-devdependencies)
+
+## 🚨 Node.js ESM packages
+
+**e.g.** `node-fetch` `execa` `got` ...
+
+[👉 Using Node.js ESM packages in Electron-Renderer](https://github.com/electron-vite/vite-plugin-electron-renderer#-nodejs-esm-packages)
